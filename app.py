@@ -54,7 +54,7 @@ button{background:#00ff88;color:black;font-weight:bold;cursor:pointer}
 </div>
 <div class="mpesa">
 <h3>💚 Support RIFT AI — Lipa na M-Pesa</h3>0180974422
-<p>Your support helps us buy OpenAI credits and keep servers running. Every 10 KES helps!</p>
+<p>Your support helps us buy OpenAI credits... Send to 0180974422 - Every 10 KES helps!
 <input id="phone" placeholder="0180974422" style="width:45%"><input id="amount" placeholder="KES 10" style="width:20%"><button onclick="pay()">Lipa</button>
 <p id="paystatus" style="color:#00ff88"></p>
 <p style="font-size:12px;color:#888">Powered by Safaricom Daraja Sandbox • Demo mode until you add Daraja keys • Money goes to your M-Pesa when live</p>
