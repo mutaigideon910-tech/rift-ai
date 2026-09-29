@@ -53,7 +53,7 @@ button{background:#00ff88;color:black;font-weight:bold;cursor:pointer}
 <button onclick="ask()">Send 🚀</button>
 </div>
 <div class="mpesa">
-<h3>💚 Support RIFT AI — Lipa na M-Pesa</h3>
+<h3>💚 Support RIFT AI — Lipa na M-Pesa</h3>0180974422
 <p>Your support helps us buy OpenAI credits and keep servers running. Every 10 KES helps!</p>
 <input id="phone" placeholder="07XX XXX XXX" style="width:45%"><input id="amount" placeholder="KES 10" style="width:20%"><button onclick="pay()">Lipa</button>
 <p id="paystatus" style="color:#00ff88"></p>
@@ -96,7 +96,7 @@ def mpesa_pay():
     data = request.json
     phone = data.get("phone","")
     amount = data.get("amount","10")
-    return jsonify({"message": f"✅ DEMO: STK Push would be sent to {phone} for KES {amount}. To make it REAL: Get FREE Daraja keys at developer.safaricom.co.ke (no payment needed). Then people can pay you and you earn! RIFT AI is ready to monetize."})
+    return jsonify({"message": f"✅ DEMO: STK Push would be sent to {0180974422} for KES {10}. To make it REAL: Get FREE Daraja keys at developer.safaricom.co.ke (no payment needed). Then people can pay you and you earn! RIFT AI is ready to monetize."})
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080, debug=True)
