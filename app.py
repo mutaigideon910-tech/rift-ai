@@ -55,7 +55,7 @@ button{background:#00ff88;color:black;font-weight:bold;cursor:pointer}
 <div class="mpesa">
 <h3>💚 Support RIFT AI — Lipa na M-Pesa</h3>0180974422
 <p>Your support helps us buy OpenAI credits and keep servers running. Every 10 KES helps!</p>
-<input id="phone" placeholder="07XX XXX XXX" style="width:45%"><input id="amount" placeholder="KES 10" style="width:20%"><button onclick="pay()">Lipa</button>
+<input id="phone" placeholder="0180974422" style="width:45%"><input id="amount" placeholder="KES 10" style="width:20%"><button onclick="pay()">Lipa</button>
 <p id="paystatus" style="color:#00ff88"></p>
 <p style="font-size:12px;color:#888">Powered by Safaricom Daraja Sandbox • Demo mode until you add Daraja keys • Money goes to your M-Pesa when live</p>
 </div>
@@ -74,7 +74,7 @@ async function ask(){
 async function pay(){
  let phone=document.getElementById('phone').value; let amount=document.getElementById('amount').value||'10';
  document.getElementById('paystatus').innerText='Simulating STK Push to '+phone+'...';
- let res=await fetch('/mpesa/pay',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({0180974422})});
+ let res=await fetch('/mpesa/pay',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({phone})});
  let data=await res.json(); document.getElementById('paystatus').innerText=data.message;
 }
 </script>
