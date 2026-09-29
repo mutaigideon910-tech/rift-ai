@@ -74,7 +74,7 @@ async function ask(){
 async function pay(){
  let phone=document.getElementById('phone').value; let amount=document.getElementById('amount').value||'10';
  document.getElementById('paystatus').innerText='Simulating STK Push to '+phone+'...';
- let res=await fetch('/mpesa/pay',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({phone})});
+ let res=await fetch('/mpesa/pay',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({phone number})});
  let data=await res.json(); document.getElementById('paystatus').innerText=data.message;
 }
 </script>
