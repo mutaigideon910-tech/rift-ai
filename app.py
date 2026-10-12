@@ -74,7 +74,7 @@ async function ask(){
 async function pay(){
  let phone=document.getElementById('phone').value; let amount=document.getElementById('amount').value||'10';
  document.getElementById('paystatus').innerText='Simulating STK Push to '+phone+'...';
- let res=await fetch('/mpesa/pay',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({phone number})});
+ let res=await fetch('/mpesa/pay',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({phone:phone, amount:amount}));
  let data=await res.json(); document.getElementById('paystatus').innerText=data.message;
 }
 </script>
@@ -99,4 +99,6 @@ def mpesa_pay():
     return jsonify({"message": f"✅ DEMO: STK Push would be sent to {0180974422} for KES {10}. To make it REAL: Get FREE Daraja keys at developer.safaricom.co.ke (no payment needed). Then people can pay you and you earn! RIFT AI is ready to monetize."})
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8080, debug=True)
+    import os
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
