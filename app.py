@@ -18,6 +18,12 @@ FARMING_KB = {
         "coffee": "COFFEE Kahawa - Batian/Ruiru11: CBD resistant 30kg/tree. Spacing 2m x 2m. Diseases: CBD=Captafol, Rust=Copper. Fertilizer: 100g DAP planting, 150g CAN +100g NPK. Price 2026: Cherry 80-110/kg via KPCU.",
         "kahawa": "COFFEE Kahawa - Batian/Ruiru11: CBD resistant 30kg/tree. Spacing 2m x 2m. Diseases: CBD=Captafol, Rust=Copper. Fertilizer: 100g DAP planting, 150g CAN +100g NPK. Price 2026: Cherry 80-110/kg via KPCU.",
     "batian": "COFFEE Kahawa - Batian/Ruiru11: CBD resistant 30kg/tree. Spacing 2m x 2m. Diseases: CBD=Captafol, Rust=Copper. Fertilizer: 100g DAP planting, 150g CAN +100g NPK. Price 2026: Cherry 80-110/kg via KPCU.",
+        "kenya_coffee": "KENYA: Batian CBD resistant 30kg/tree spacing 2x2m KALRO. Ruiru 11 Compact 20-25kg needs CBD spray. SL28 Best quality needs Captafol. Price Cherry 80-110 KES/kg (KPCU)",
+    "uganda": "UGANDA: Varieties Robusta main SL14 Caturra. Board UCDA. Price Kiboko 6000-8000 UGX/kg FAQ 12000 UGX/kg. Disease Coffee Wilt Disease CWD + Black Twig Borer. Spacing Robusta 3x3m",
+    "ethiopia": "ETHIOPIA: Varieties Heirloom Geisha Caturra Bourbon. Price 80-150 ETB/kg cherry. Disease CBD Wilt. Note Birthplace of coffee washed process",
+    "rwanda": "RWANDA TANZANIA: Varieties Bourbon Kent. Price Rwanda cherry 800-1200 RWF/kg Tanzania 3000-5000 TZS/kg. Disease Antestia Bug Rwanda CBD",
+    "tanzania": "TANZANIA: Varieties Bourbon Kent. Price 3000-5000 TZS/kg",
+    "global_coffee": "GLOBAL Brazil Colombia Vietnam: Arabica 60% Robusta 40%. Brazil Mundo Novo Catuai 50-60 bags/ha. Colombia Castillo Caturra. Vietnam Robusta 90%. General pH 5.5-6.5 altitude 1200-2000m Arabica",
     "default": "RIFT AI - Eldoret Offline AI: I help with armyworm, maize, potatoes, dairy. Ask in English, Swahili, or Sheng. Example: 'dawa ya armyworm' or 'how to feed dairy cow'."
 }
 
