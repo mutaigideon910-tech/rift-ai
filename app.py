@@ -56,8 +56,9 @@ input{width:100%; padding:12px; border:1px solid #ccc; border-radius:8px; margin
 </head>
 <body>
 <div class="card">
-<div class="logo">🧠</div>
-<img src="/static/rift-ai-logo-light.png" alt="RIFT AI" style="height:42px; vertical-align:middle; margin-right:8px;"> RIFT AI
+
+<img src="/static/rift-ai-logo-light.png" alt="RIFT AI" style="height:65px; display:block; margin:0 auto 8px;">
+<h2 style="margin:5px 0;">RIFT AI</h2>
 <p><b>ELDORET • OFFLINE AI</b></p>
 
 <div id="paySection">
