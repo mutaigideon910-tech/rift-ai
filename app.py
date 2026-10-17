@@ -38,6 +38,9 @@ HTML_PAGE = """
 <html>
 <head>
 <title>RIFT AI - Eldoret</title>
+<title>RIFT AI - Eldoret</title>
+<link rel="icon" type="image/png" href="/static/rift-ai-logo-light.png">
+<meta name="viewport"...
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body{font-family:Arial; max-width:500px; margin:auto; padding:20px; background:#f5f5f0;}
@@ -54,7 +57,7 @@ input{width:100%; padding:12px; border:1px solid #ccc; border-radius:8px; margin
 <body>
 <div class="card">
 <div class="logo">🧠</div>
-<h1>RIFT AI</h1>
+<img src="/static/rift-ai-logo-light.png" alt="RIFT AI" style="height:42px; vertical-align:middle; margin-right:8px;"> RIFT AI
 <p><b>ELDORET • OFFLINE AI</b></p>
 
 <div id="paySection">
