@@ -24,6 +24,14 @@ FARMING_KB = {
     "rwanda": "RWANDA TANZANIA: Varieties Bourbon Kent. Price Rwanda cherry 800-1200 RWF/kg Tanzania 3000-5000 TZS/kg. Disease Antestia Bug Rwanda CBD",
     "tanzania": "TANZANIA: Varieties Bourbon Kent. Price 3000-5000 TZS/kg",
     "global_coffee": "GLOBAL Brazil Colombia Vietnam: Arabica 60% Robusta 40%. Brazil Mundo Novo Catuai 50-60 bags/ha. Colombia Castillo Caturra. Vietnam Robusta 90%. General pH 5.5-6.5 altitude 1200-2000m Arabica",
+        "heirloom": "ETHIOPIA: Varieties Heirloom Geisha Caturra Bourbon. Price 80-150 ETB/kg cherry. Disease CBD Wilt. Note Birthplace of coffee washed process",
+    "geisha": "ETHIOPIA: Varieties Heirloom Geisha Caturra Bourbon. Price 80-150 ETB/kg cherry. Also Panama Geisha famous. High altitude 1600-2000m. Price premium 3x",
+    "bourbon": "RWANDA TANZANIA: Bourbon famous in Rwanda. Sweet, high quality. Price Rwanda cherry 800-1200 RWF/kg. Also Ethiopia Bourbon",
+    "mundo novo": "GLOBAL Brazil: Mundo Novo Catuai 50-60 bags/ha. High yield, disease resistant. Brazil main variety. Altitude 800-1200m",
+    "catuai": "BRAZIL: Catuai compact, high yield 50-60 bags/ha. Needs fertilizer. Mundo Novo parent",
+    "castillo": "COLOMBIA: Castillo disease resistant, Caturra parent. 30-40 bags/ha. Altitude 1500-2000m",
+    "robusta": "UGANDA: Robusta main SL14 Caturra. Board UCDA. Price Kiboko 6000-8000 UGX/kg. Spacing 3x3m. Disease Coffee Wilt CWD",
+    "caturra": "ETHIOPIA & COLOMBIA: Caturra compact, high quality. Price 80-150 ETB/kg. Colombia altitude",
     "default": "RIFT AI - Eldoret Offline AI: I help with armyworm, maize, potatoes, dairy. Ask in English, Swahili, or Sheng. Example: 'dawa ya armyworm' or 'how to feed dairy cow'."
 }
 
