@@ -15,6 +15,7 @@ FARMING_KB = {
     "maize": "Maize in Uasin Gishu: Use DH04 or H614. Plant with 10g DAP. Top-dress with CAN after 3 weeks. Weed at 2 weeks.",
     "potato": "Potato blight: Spray Ridomil Gold every 7 days in rainy season. Use clean seed from ADC Molo. Store in diffused light store.",
     "dairy": "Dairy feeding: 10kg silage + 2kg dairy meal per cow per day. Deworm every 3 months. Use hay in dry season Jan-Mar.",
+        "coffee": "COFFEE Kahawa - Batian/Ruiru11: CBD resistant 30kg/tree. Spacing 2m x 2m. Diseases: CBD=Captafol, Rust=Copper. Fertilizer: 100g DAP planting, 150g CAN +100g NPK. Price 2026: Cherry 80-110/kg via KPCU.",
     "default": "RIFT AI - Eldoret Offline AI: I help with armyworm, maize, potatoes, dairy. Ask in English, Swahili, or Sheng. Example: 'dawa ya armyworm' or 'how to feed dairy cow'."
 }
 
